@@ -1,6 +1,8 @@
 # Instructions
 
-The index.html file in this repository contains a table with the days of the week and the working hours of the day.
+The index.html file in this repository contains a table with the days of the week and the working hours of the day. Edit the HTML and CSS files to produce the same layout is in the reference image.
+
+![Reference image for timetable](img/timetable.png)
 
 
 ## HTML
