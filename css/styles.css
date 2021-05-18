@@ -1,0 +1,59 @@
+table {
+  border:2px solid black;
+  border-collapse: collapse
+}
+
+caption {
+  caption-side: bottom;
+  padding-top: 1em;
+}
+
+td, th {
+  border:1px solid black;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+col.time {
+  background-color: grey;
+  color: white;
+  width:3em;
+}
+
+colgroup.weekdays {
+  background-color:beige;
+}
+
+colgroup.weekend {
+  background-color:#cfc;
+  width: 4em;
+  border: 3px solid green
+}
+
+th[scope=row]{
+  color: white;
+  text-align: right;
+  padding-right: 0.2em;
+}
+
+tr th:first-child{
+  color:white;
+  text-align: ":";
+}
+
+th:nth-child(7),
+th:last-child {
+  font-size: smaller;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+tfoot td[colspan] {
+  text-align: center;
+}
