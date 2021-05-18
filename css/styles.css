@@ -1,6 +1,8 @@
 table {
   border:2px solid black;
-  border-collapse: collapse
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
 }
 
 caption {
@@ -8,13 +10,18 @@ caption {
   padding-top: 1em;
 }
 
-td, th {
-  border:1px solid black;
+thead {
+  background-color: black;
+  color: white;
 }
 
-table {
-  table-layout: fixed;
-  width: 100%;
+th:nth-child(7),
+th:last-child {
+  font-size: smaller;
+}
+
+td, th {
+  border:1px solid black;
 }
 
 col.time {
@@ -37,21 +44,6 @@ th[scope=row]{
   color: white;
   text-align: right;
   padding-right: 0.2em;
-}
-
-tr th:first-child{
-  color:white;
-  text-align: ":";
-}
-
-th:nth-child(7),
-th:last-child {
-  font-size: smaller;
-}
-
-thead {
-  background-color: black;
-  color: white;
 }
 
 tfoot td[colspan] {
