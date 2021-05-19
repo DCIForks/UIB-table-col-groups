@@ -18,8 +18,10 @@ The index.html file in this repository contains a table with the days of the wee
 5. Give the table head a dark background
 6. Make the text of row and column headers white
 7. Set `text-align: right` for all the numbers in the Time column
-8. Make the Weekday columns beige
-9.  Make the Weekend columns a very pale green
-10. Place a green border around the whole weekend section
-11. Make the text for Saturday and Sunday smaller
-12. Reduce the width of the Saturday and Sunday columns
+8.  Make the Weekend columns a very pale green
+9.  Place a green border around the whole weekend section
+10. Make the text for Saturday and Sunday smaller
+11. Reduce the width of the Saturday and Sunday columns
+12. Make the Weekday columns beige
+13. Give the `td` elements in even-numbered rows a bisque background
+14. Use `:not(...)` in your selector for even-numbered rows to prevent the `td` elements in the Weekend columns from adopting the bisque background
