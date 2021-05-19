@@ -49,3 +49,7 @@ th[scope=row]{
 tfoot td[colspan] {
   text-align: center;
 }
+
+tr:nth-child(even) td:not(:nth-child(7)):not(:last-child) {
+  background-color: bisque;
+}
